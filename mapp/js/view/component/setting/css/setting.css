@@ -1,0 +1,44 @@
+:local .textArea {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 auto;
+  padding: 0 .2rem;
+  width: 6.72rem;
+  height: auto;
+  border: .02rem solid #dbedff;
+  border-radius: 8px;
+}
+:local .textArea p {
+  min-width: 1.8rem;
+  font-size: .24rem;
+  color: #bbbbbb;
+}
+:local .textArea input[type="text"],
+:local .textArea input[type="tel"],
+:local .textArea input[type="password"]{
+  flex: 1;
+  line-height: .88rem;
+  font-size: .24rem;
+  background: none;
+  border: none;
+  outline: none;
+}
+:local .textArea textarea {
+  flex: 1;
+  padding: .2rem 0;
+  height: 3.78rem;
+  font-size: .24rem;
+  background: none;
+  border: none;
+  outline: none;
+}
+:local .text {
+  margin-left: .5rem;
+  font-size: .24rem;
+  color: #b1c6db;
+  background: none;
+  border: none;
+  outline: none;
+}

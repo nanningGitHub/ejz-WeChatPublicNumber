@@ -1,0 +1,115 @@
+:local .loginArea {
+  margin: 1.04rem auto 0;
+  padding-top: 2rem;
+  width: 6.5rem;
+  height: 5.84rem;
+  background-image: url(../../../../../image/login_background.png);
+}
+:local .textArea {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 auto;
+  width: 5.1rem;
+  height: .88rem;
+  background: #f2f8ff;
+  border-radius: 30px;
+  overflow: hidden;
+}
+:local .iconArea {
+  margin-left: .46rem;
+}
+:local .text {
+  margin-left: .5rem;
+  font-size: .24rem;
+  color: #b1c6db;
+  background: none;
+  border: none;
+  outline: none;
+}
+:local .controll {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: .4rem;
+  padding: 0 1.18rem;
+  height: .41rem;
+}
+:local .controll a {
+  line-height: .34rem;
+  font-size: .24rem;
+  color: #37d3cb;
+}
+:local .loginButton {
+  margin: .68rem auto 0;
+  width: 5rem;
+  height: 1.6rem;
+  background-image: url(../../../../../image/login.png);
+}
+
+/* Register */
+:local .registerArea {
+  margin: .48rem auto 0;
+  padding-top: 1.74rem;
+  width: 6.5rem;
+  height: 8.24rem;
+  background-image: url(../../../../../image/register_background.png);
+}
+:local .column {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: .26rem auto 0;
+  width: 5.1rem;
+  height: .88rem;
+}
+:local .yzmButton {
+  width: 1.8rem;
+  height: .88rem;
+  font-size: .24rem;
+  color: #ffffff;
+  background: #fec23b;
+  border-radius: 30px;
+  overflow: hidden;
+  border: none;
+  outline: none;
+}
+:local .agreement {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: .37rem;
+}
+:local .agreementArea p {
+  margin-left: .2rem;
+  line-height: .32rem;
+  font-size: .28rem;
+}
+:local .agreementArea p a {
+  color: #37d3cb;
+}
+:local .agreementArea {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+:local .registerButton {
+  margin: .2rem auto 0;
+  width: 5rem;
+  height: 1.62rem;
+  background-image: url(../../../../../image/register.png);
+}
+
+/* forgetPassword */
+:local .passwordArea {
+  margin: .48rem auto 0;
+  padding-top: 1.74rem;
+  width: 6.5rem;
+  height: 6rem;
+  background-image: url(../../../../../image/forgetPassword_background.png);
+}

@@ -1,0 +1,166 @@
+/*-----------------llf start----------------*/
+:local .gender{
+  margin-left: 40px;
+  max-width: 3.7rem;
+  line-height: .54rem;
+  font-size: .2rem;
+  font-weight: normal;
+  overflow: hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  color:#3adbc4;
+  padding-right: .07rem;
+}
+:local .age{
+  max-width: 3.7rem;
+  line-height: .54rem;
+  font-size: .2rem;
+  font-weight: normal;
+  overflow: hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  color:#fcbc31;
+}
+:local .area{
+  line-height: .4rem;
+  font-size: .2rem;
+  font-weight: normal;
+  overflow: hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  float: right;
+  color: #bcbcbc;
+  display: flex;
+  justify-content: flex-end;
+  width: 2rem;
+}
+:local .image{
+  margin-top: 5px;
+}
+/*-----------------llf end ----------------*/
+:local .item {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  padding: 0 .16rem 0 .18rem;
+  width: 100%;
+  height: 1.78rem;
+  border-bottom: 1px solid #dbedff;
+}
+:local .jobLogo {
+  margin-top: .3rem;
+}
+:local .textArea {
+  flex: 1;
+  margin-left: .20rem;
+  margin-top: .20rem;
+}
+:local .titleArea {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: .12rem;
+}
+:local .mainTitle {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+}
+:local .title {
+  max-width: 3.7rem;
+  line-height: .54rem;
+  font-size: .3rem;
+  font-weight: normal;
+  overflow: hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}
+:local .titleDescription {
+  margin-left: .1rem;
+  font-size: .24rem;
+  color: #37d3cb;
+}
+:local .descriptionArea {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+:local .jobTypeArea,
+:local .suplusCountArea {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+:local .jobType {
+  line-height: .44rem;
+  font-size: .24rem;
+  color: #bbbbbb;
+}
+:local .settlementType {
+  padding: 0 .1rem;
+  margin-left: .16rem;
+  line-height: .34rem;
+  font-size: .2rem;
+  color: #37d3cb;
+  border: 1px solid #37d3cb;
+  border-radius: 30px;
+}
+:local .salaryArea {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+:local .salary {
+  float: left;
+  line-height: .44rem;
+  font-size: .44rem;
+  color: #fdba32;
+}
+:local .salaryInfo {
+  font-size: .24rem;
+  color: #bbbbbb;
+}
+:local .jobDetalStatus {
+  line-height: .48rem;
+  font-size: .24rem;
+  color: #37d3cb;
+}
+:local .lianXiTa {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-end;
+  width:100px;
+  float: right;
+  line-height: 40px;
+}
+:local .lianXiTaLeftLine{
+  line-height: 40px;
+  border-left:.1px solid #d7e1fb;
+  display: flex;
+  justify-content: center;
+  width:10rem;
+}
+:local .lianXiTa a{
+  color:#36d8c6;
+  font-size: .28rem;
+}
+/* 线上兼职列表样式 */
+:local .suplusCount {
+  font-size: .24rem;
+  color: #37d3cb;
+}
+:local .oldSalary {
+  font-size: .24rem;
+  color: #bbb;
+}
+:local .suplusCountTitle,
+:local .endTimeTitle {
+  font-size: .24rem;
+  color: #bbb;
+}

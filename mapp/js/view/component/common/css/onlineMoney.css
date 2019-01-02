@@ -1,0 +1,9 @@
+:local .money p {
+  line-height: .58rem;
+  font-size: .24rem;
+  color: #37d3cb;
+  text-align: center;
+}
+:local .money span {
+  color: #fdba32;
+}

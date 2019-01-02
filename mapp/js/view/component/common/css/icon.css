@@ -1,0 +1,16 @@
+:local .icon {
+  display: block;
+}
+
+/* 头部Icon */
+:local .headerLeft {
+  padding-left: .28rem;
+  width: 25%;
+}
+:local .headerRight {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  padding-right: .28rem;
+  width: 25%;
+}

@@ -1,0 +1,407 @@
+:local .item {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  padding: 0 .16rem 0 .28rem;
+  width: 100%;
+}
+:local .leftArea {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  width: 5.08rem;
+  border-right: .02rem solid #f2f8ff;
+}
+:local .logo {
+  margin-top: .3rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+:local .textArea {
+  flex: 1;
+  margin-left: .28rem;
+}
+:local .titleArea {
+  padding-top: .26rem;
+  width: 100%;
+}
+:local .title {
+  line-height: .38rem;
+  font-size: .3rem;
+  font-weight: normal;
+}
+:local .descriptionArea {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+:local .description,
+:local .count {
+  line-height: .48rem;
+  font-size: .24rem;
+  color: #bbbbbb;
+}
+:local .count {
+  color: #37d3cb;
+}
+:local .date {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: .34rem;
+}
+:local .dateInfo {
+  margin-left: .06rem;
+  line-height: .32rem;
+  font-size: .24rem;
+  color: #bbbbbb;
+}
+:local .rightArea {
+  flex: 1;
+  padding-top: .64rem;
+  padding-right: .16rem;
+}
+:local .onlineSalary {
+  line-height: .48rem;
+  font-size: .44rem;
+  font-weight: bold;
+  color: #fdba32;
+  text-align: right;
+}
+:local .onlineSalaryInfo {
+  line-height: .28rem;
+  font-size: .24rem;
+  color: #bbbbbb;
+  text-align: right;
+}
+:local .infoArea {
+  padding: .16rem .34rem .26rem .3rem;
+}
+:local .infoAreaWithBorder {
+  padding: .16rem .34rem .16rem .3rem;
+  border-bottom: 1px solid #f2f8ff;
+}
+:local .infoArea p,
+:local .infoAreaWithBorder p {
+  padding: .1rem 0;
+  line-height: .36rem;
+  font-size: .28rem;
+}
+:local .welfareArea {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  padding: .24rem .3rem;
+}
+:local .welfare {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  flex: 1;
+  margin-left: .24rem;
+}
+:local .welfareTitle p {
+  line-height: .52rem;
+  font-size: .28rem;
+}
+:local .infoMain {
+  margin-top: .02rem;
+}
+:local .tipArea {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: .24rem .3rem;
+  width: 100%;
+}
+:local .tip p {
+  line-height: .4rem;
+  font-size: .2rem;
+  color: #37d3cb;
+}
+:local .tipArea a {
+  display: block;
+  padding: 0 .1rem;
+  font-size: .2rem;
+  line-height: .4rem;
+  color: #37d3cb;
+  text-align: center;
+  border: 1px solid #37d3cb;
+  border-radius: .3rem;
+}
+:local .resume {
+  flex: 3;
+  background: url(../../../../../image/background_footer.jpg);
+}
+:local .resumeIsDeliver {
+  flex: 3;
+  background-color: #bbb;
+}
+:local .resume p,
+:local .resumeIsDeliver p {
+  line-height: 1rem;
+  font-size: .32rem;
+  color: #fff;
+  text-align: center;
+}
+
+/* taskInfo */
+:local .taskItem {
+  width: 100%;
+}
+:local .taskLeft {
+  padding: .24rem .22rem .14rem;
+  width: 5.42rem;
+  border-right: 1px solid #f2f8ff;
+}
+:local taskTitle {
+  
+}
+:local .taskTitle h3 {
+  line-height: .38rem;
+  font-size: .3rem;
+}
+:local .taskRule{
+  margin-top: .12rem;
+}
+:local .taskRule p {
+  width: 50%;
+  line-height: .4rem;
+  font-size: .24rem;
+  color: #bbbbbb;
+}
+:local .taskRule p span {
+  color: #2db7f5;
+}
+:local .taskRight {
+  flex: 1;
+  padding-right: .28rem;
+}
+:local .taskStatusArea {
+  width: 100%;
+}
+:local .taskSalaryOld {
+  line-height: .32rem;
+  font-size: .24rem;
+  color: #bbbbbb;
+  text-align: right;
+}
+:local .taskSalary {
+  line-height: .52rem;
+  font-size: .44rem;
+  color: #fdba32;
+  text-align: right;
+}
+:local .taskStatus {
+  line-height: .52rem;
+  font-size: .24rem;
+  color: #bbbbbb;
+  text-align: right;
+}
+:local .taskContentArea {
+  padding-bottom: .3rem;
+}
+:local .taskContentTitle {
+  margin-top: .3rem;
+  margin-bottom: .24rem;
+  padding-left: .3rem;
+}
+:local .taskContentTitle h3 {
+  margin-left: .14rem;
+  line-height: .34rem;
+  font-size: .28rem;
+  font-weight: normal;
+}
+:local .taskContent {
+  padding: 0 .3rem;
+}
+:local .taskContent a {
+  position: relative;
+  display: block;
+  margin-left: .1rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+:local .taskContent a:nth-child(4n+1) {
+  margin-left: 0;
+}
+:local .inputFile {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  right: 0;
+  top: 0;
+  opacity: 0;
+}
+:local .taskContent a img {
+  width: 1.66rem;
+  height: 1.66rem;
+}
+:local .taskContent p {
+  line-height: .4rem;
+  font-size: .28rem;
+}
+:local .taskContentTextArea {
+  padding: .22rem .28rem .3rem;
+  width: 100%;
+  height: 2.78rem;
+  font-size: .28rem;
+  border: 1px solid #dbedff;
+  border-radius: 8px;
+  outline: none;
+}
+:local .taskExampleImgBorder {
+  margin-left: .2rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+:local .taskExampleImgBorder:first-child {
+  margin-left: 0;
+}
+:local .taskExampleImgBorder img {
+  width: 1.4rem;
+  height: 2.34rem;
+  border-radius: 8px;
+}
+
+:local .stepArea {
+  width: 100%;
+}
+:local .stepNum {
+  margin-top: .4rem;
+  line-height: .4rem;
+  font-size: .28rem;
+}
+
+:local .stepTitle {
+  margin-top: .08rem;
+  margin-left: 1rem;
+  line-height: .4rem;
+  font-size: .28rem;
+}
+
+:local .stepImgArea {
+  padding-left: .64rem;
+  margin-top: .06rem;
+  margin-left: .34rem;
+  border-left: 0.02rem solid #2db7f5;
+}
+:local .stepImgArea img {
+  width: 1.4rem;
+  height: 2.34rem;
+}
+
+/* 上岗记录样式 */
+:local .workRecordJobArea {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  padding: .3rem .28rem .38rem;
+}
+:local .workRecordJobLogo img {
+  width: 1.1rem;
+  height: 1.1rem;
+}
+:local .workRecordJobTextArea {
+  flex: 1;
+  margin-left: .28rem;
+}
+:local .workRecordJobTitleArea h3 {
+  line-height: .46rem;
+  font-size: .3rem;
+}
+:local .workRecordJobDescriptionArea {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: .12rem;
+}
+:local .workRecordJobDate p {
+  font-size: .24rem;
+  color: #bbbbbb;
+}
+:local .workRecordJobSalaryArea {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+:local .workRecordJobSalary {
+  font-size: .44rem;
+  color: #fdba32;
+}
+:local .workRecordJobSalaryUnit {
+  margin-left: .08rem;
+  font-size: .24rem;
+  color: #bbb;
+}
+:local .wordRecordStatusTitleArea {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+  height: .88rem;
+  border-bottom: 1px solid #dbedff;
+}
+:local .wordRecordStatusPoint {
+  margin-left: .24rem;
+  margin-right: .2rem;
+}
+:local .wordRecordStatusTitle h3 {
+  font-size: .3rem;
+  font-weight: normal;
+}
+:local .wordRecordStatusLogoArea {
+  position: relative;
+  padding: .5rem .72rem 0;
+  height: 2.48rem;
+}
+:local .wordRecordStatusLogo {
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+:local .wordRecordStatusLogoList img {
+  width: 1rem;
+  height: 1rem;
+  background-color: #dbedff;
+  border: none;
+  border-radius: 50%;
+}
+:local .wordRecordStatusLogoList p {
+  font-size: .24rem;
+  line-height: .72rem;
+  text-align: center;
+}
+:local .wordRecordStatusLogoLineArea {
+  position: absolute;
+  top: .5rem;
+  left: 50%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: -2.91rem;
+  width: 5.82rem;
+  height: 1rem;
+}
+:local .wordRecordStatusLogoLine {
+  width: 100%;
+  height: .04rem;
+  background-color: #dbedff;
+}
+:local .settlementType {
+  padding: 0 .16rem;
+  margin-left: .16rem;
+  line-height: .34rem;
+  font-size: .24rem;
+  color: #37d3cb;
+  border: 1px solid #37d3cb;
+  border-radius: .3rem;
+}

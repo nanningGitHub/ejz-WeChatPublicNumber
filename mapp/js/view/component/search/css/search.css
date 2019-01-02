@@ -1,0 +1,55 @@
+:local .search {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: .14rem;
+  width: 6.34rem;
+  height: .58rem;
+  background: #f2f8ff;
+  border-radius: 30px;
+  order: 2;
+}
+:local .searchIcon {
+  margin-left: .34rem;
+}
+:local .search input[type="text"] {
+  margin-left: .18rem;
+  line-height: .58rem;
+  font-size: .24rem;
+  color: #bbbbbb;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+:local .guessList2 {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 .88rem;
+}
+:local .guessList2 a {
+  display: block;
+  margin-top: .2rem;
+  width: 1.8rem;
+  line-height: .48rem;
+  font-size: .24rem;
+  color: #37d3cb;
+  text-align: center;
+  border: 1px solid #37d3cb;
+  border-radius: 30px;
+  margin-right: .10rem;
+}
+:local .clearSearch {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: .5rem;
+}
+:local .clearSearch a {
+  font-size: .28rem;
+  color: #37d3cb;
+}

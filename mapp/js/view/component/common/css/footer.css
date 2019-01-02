@@ -1,0 +1,70 @@
+/* footer样式1 */
+:local .wrap {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 0 .88rem;
+  width: 100%;
+  height: 1rem;
+  background: #fff;
+  border-top: 1px solid #f2f8ff;
+  z-index: 99;
+}
+:local .icon {
+  margin: 0 auto;
+  width: .48rem;
+}
+:local .item {
+  display: block;
+}
+:local .item p {
+  line-height: .22rem;
+  font-size: .22rem;
+  color: #bbbbbb;
+  text-align: center;
+}
+:local .item_on p {
+  line-height: .22rem;
+  font-size: .22rem;
+  color: #37d3cb;
+  text-align: center;
+}
+
+/* footer样式2 */
+:local .wrap2 {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 1rem;
+  background: #fff;
+  border-top: 1px solid #f2f8ff;
+  z-index: 99;
+}
+:local .item2 {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1;
+  border-right: 1px solid #f2f8ff;
+}
+:local .itemArea {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+:local .itemAreaImg {
+  width: .48rem;
+  height: .48rem;
+}
+:local .item2 p {
+  font-size: .32rem;
+}
+
+/* footer样式3s */

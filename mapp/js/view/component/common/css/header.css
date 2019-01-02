@@ -1,0 +1,34 @@
+:local .wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  width: 100%;
+  height: .9rem;
+  background: #fff;
+  z-index: 102;
+}
+:local .middle {
+  width: 50%;
+  order: 2;
+}
+:local .middle p {
+  line-height: .38rem;
+  font-size: .38rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+/* 头部右侧文字 */
+:local .headerContent {
+  padding-right: .3rem;
+  width: 25%;
+  order: 3;
+}
+:local .headerContent p {
+  font-size: .28rem;
+  color: #37d3cb;
+  text-align: right;
+}

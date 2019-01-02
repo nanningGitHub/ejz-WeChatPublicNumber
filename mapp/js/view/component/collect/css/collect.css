@@ -1,0 +1,27 @@
+:local .listArea {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  padding: .3rem .18rem 0 .18rem;
+  height: 1.78rem;
+}
+:local .listArea img {
+  width: 1.1rem;
+  height: 1.1rem;
+}
+:local .textArea {
+  margin-left: .18rem;
+}
+:local .textArea h3 {
+  max-width: 5.6rem;
+  height: .58rem;
+  line-height: .58rem;
+  font-size: .3rem;
+  font-weight: normal;
+  overflow: hidden;
+}
+:local .textArea p {
+  line-height: .64rem;
+  font-size: .24rem;
+  color: #bbbbbb;
+}

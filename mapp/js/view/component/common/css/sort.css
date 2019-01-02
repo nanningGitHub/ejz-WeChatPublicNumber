@@ -1,0 +1,112 @@
+:local .mainWrap {
+  position: relative;
+}
+:local .wrap {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: .88rem;
+  background: #ffffff;
+  -webkit-box-shadow:0px 2px 8px #DAEDFF;
+  -moz-box-shadow:0px 2px 8px #DAEDFF;
+  box-shadow:0px 2px 8px #DAEDFF;
+  z-index: 104;
+}
+:local .sortItem {
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1 25%;
+  height: 100%;
+}
+:local .sortArea {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+:local .sortName {
+  font-size: .28rem;
+}
+:local .sortIcon {
+  margin-left: .1rem;
+  width: .2rem;
+  height: .2rem;
+  background-image: url(../../../../../image/icon_down.png);
+}
+:local .sortItemBorderLast,
+:local .sortItemBorderBoth,
+:local .sortItemBorderFirst {
+  position: absolute;
+  left: 0;
+  top: .35rem;
+  width: 100%;
+  height: .18rem;
+}
+:local .sortItemBorderLast {
+  border-left: 1px solid #dbedff;
+}
+:local .sortItemBorderBoth {
+  border-left: 1px solid #dbedff;
+  border-right: 1px solid #dbedff;
+}
+:local .sortItemBorderFirst {
+  border-Right: 1px solid #dbedff;
+}
+
+/* 排序列表 */
+:local .listAndShadow {
+  position: absolute;
+  top: .88rem;
+  width: 100%;
+}
+:local .listArea {
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  margin-top: 2px;
+  width: 100%;
+  height: 5.44rem;
+  background: #fff;
+  z-index: 100;
+}
+:local .singleArea {
+  width: 100%;
+  height: 5.44rem;
+  background: #ffffff;
+  overflow: scroll;
+}
+:local .shadow {
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+}
+:local .leftArea {
+  width: 50%;
+  height: 5.44rem;
+  background: #ffffff;
+  overflow: scroll;
+}
+:local .rightArea {
+  width: 50%;
+  height: 5.44rem;
+  background: #dbedff;
+  overflow: scroll;
+}
+:local .mainList {
+  display: block;
+  padding-left: .4rem;
+  width: 100%;
+  height: .88rem;
+  line-height: .88rem;
+  font-size: .28rem;
+  border-bottom: 1px solid #dbedff;
+}
+:local .radio {
+  display: none;
+}

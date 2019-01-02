@@ -1,0 +1,23 @@
+/*地址选择器样式*/
+:local .addressList {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+:local .addressList p {
+  font-size: .24rem;
+}
+:local .addressIcon {
+  margin-left: .16rem;
+}
+
+/*其他选择器样式*/
+:local .inputFile {
+  flex: 1;
+  max-width: 4.66rem;
+  line-height: .88rem;
+  font-size: .24rem;
+  background: none;
+  border: none
+}

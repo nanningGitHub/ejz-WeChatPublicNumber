@@ -1,0 +1,96 @@
+/*简历库feedback样式*/
+:local .rf_row{
+  line-height: .34rem;
+  font-size: .28rem;
+  font-weight: 400;
+  margin-left: .3rem;
+}
+:local .rf_row span{
+  line-height: 1.1rem;
+  width: 154px;
+  font-size: .28rem;
+  font-weight: 400;
+  color: #b1c6db;
+  /*background-color: #38d4ca;*/
+  margin-left: 5px;
+  border: 1px solid #b1c6db;
+  height: 200px;
+  padding: 8px;
+  border-radius: 40px;
+}
+/* jobFeedback样式 */
+:local .jobFeedbackArea {
+  padding: .32rem 0 .56rem;
+  height: 4.68rem;
+}
+:local .jobFeedback {
+  margin: 0 auto;
+  width: 6.74rem;
+  height: 100%;
+  border: 1px solid #dbedff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+:local .jobFeedback textarea {
+  padding: .12rem;
+  width: 100%;
+  height: 100%;
+  font-size: .24rem;
+  line-height: .48rem;
+  color: #bbbbbb;
+  background-color: #fff;
+  border: none;
+  outline: none;
+}
+
+/* enterFeedback样式 */
+:local .enterpriseFeedbackTitle {
+  margin: 0 auto;
+  width: 6.74rem;
+  font-size: .32rem;
+  line-height: 1.4rem;
+  font-weight: normal;
+}
+:local .enterpriseFeedbackContentList {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  margin: 0 auto;
+  width: 6.74rem;
+}
+:local .enterpriseFeedbackContentList li {
+  margin-left: .2rem;
+}
+:local .enterpriseFeedbackContentList li:first-child {
+  margin-left: 0;
+}
+:local .enterpriseFeedbackContentList li label {
+  display: block;
+  margin: 0 auto;
+  padding: 0 .12rem;
+  font-size: .24rem;
+  line-height: .56rem;
+  text-align: center;
+  background-color: #dbedff;
+  border-radius: 30px;
+}
+:local .enterpriseFeedbackContentList li label input[type="checkbox"] {
+  display: none;
+}
+:local .enterpriseFeedbackComment {
+  display: block;
+  margin: 0 auto;
+  padding: .12rem;
+  width: 6.74rem;
+  height: 3.8rem;
+  font-size: .24rem;
+  line-height: .48rem;
+  color: #bbbbbb;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  -webkit-box-shadow:0px 2px 8px #DAEDFF;
+  -moz-box-shadow:0px 2px 8px #DAEDFF;
+  box-shadow:0px 2px 8px #DAEDFF;
+}

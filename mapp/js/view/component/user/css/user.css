@@ -1,0 +1,54 @@
+:local .userInfo {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: .32rem;
+  padding-right: .42rem;
+  width: 100%;
+  height: 2.3rem;
+  background: url(../../../../../image/userBackground.jpg);
+}
+:local .outBorder {
+  padding: .06rem;
+  width: 1.44rem;
+  height: 1.44rem;
+  border-radius: 50%;
+  background: rgba(55,211,203,0.08);
+  overflow: hidden;
+}
+:local .inBorder {
+  padding: .06rem;
+  width: 1.32rem;
+  height: 1.32rem;
+  border-radius: 50%;
+  background: rgba(55,211,203,0.2);
+  overflow: hidden;
+}
+:local .inBorder img {
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+:local .controller {
+  flex: 1;
+  margin-left: .4rem;
+}
+:local .controller p {
+  font-size: .24rem;
+  color: #bbbbbb;
+}
+:local .controller p.userName {
+  line-height: .52rem;
+  font-size: .3rem;
+  font-weight: bold;
+  color: #333333;
+}
+:local .listInfo {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+}

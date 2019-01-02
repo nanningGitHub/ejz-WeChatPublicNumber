@@ -1,0 +1,32 @@
+:local .content {
+  position: relative;
+}
+:local .content a {
+  position: absolute;
+  top: 1.93rem;
+  left: .77rem;
+  display: block;
+  width: 3.77rem;
+  height: .46rem;
+}
+:local .wrap {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  width: 100%;
+  height: .9rem;
+  background: #f1672b;
+  z-index: 102;
+  justify-content:center;
+}
+:local .wrapFont{
+  font-size: .4rem;
+  color: #ffffff;
+  font-weight: bold;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}

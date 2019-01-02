@@ -1,0 +1,12 @@
+:local .welfare {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: .14rem;
+}
+:local .welfare p {
+  margin-left: .08rem;
+  line-height: .52rem;
+  font-size: .28rem;
+}

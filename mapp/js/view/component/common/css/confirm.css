@@ -1,0 +1,57 @@
+:local .confirmBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  z-index: 200;
+}
+:local .confirmArea {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -2.9rem;
+  margin-left: -2.44rem;
+  height: 5.8rem;
+  width: 4.88rem;
+  background-color: #ffffff;
+  border-radius: .34rem;
+}
+:local .confirmImage {
+  width: 100%;
+  height: 2.8rem;
+}
+:local .confirmImage img {
+  width: 100%;
+  height: 100%;
+}
+:local .confirmContent {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+  height: 1.94rem;
+}
+:local .confirmContent p {
+  padding: 0 .36rem;
+  font-size: .32rem;
+  line-height: .42rem;
+}
+:local .confirmButtonArea {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 0 .36rem;
+}
+:local .confirmButtonArea a {
+  display: block;
+  width: 1.84rem;
+  height: .8rem;
+  font-size: .28rem;
+  line-height: .8rem;
+  color: #37d3cb;
+  text-align: center;
+  border: .02rem solid #37d3cb;
+  border-radius: 8px;
+}

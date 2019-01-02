@@ -1,0 +1,21 @@
+:local #PullDown,
+:local #PullUp {
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  line-height: 40px;
+}
+
+:local #ListOutsite {
+  position:fixed;
+  top: 0;
+  padding: .9rem 0 1.16rem;
+  width: 100%;
+}
+
+:local #ListInside {
+  transform: translate(0px, -40px);
+  min-height: 150%;
+  padding-bottom: 1.16rem;
+}

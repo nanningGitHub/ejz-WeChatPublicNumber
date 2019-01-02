@@ -1,0 +1,34 @@
+:local .wrap,
+:local .wrapWithBorder {
+  padding: 0 .3rem 0 .3rem;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: .88rem;
+}
+:local .wrapWithBorder {
+  border-bottom: 1px solid #dbedff;
+}
+:local .title {
+  line-height: .88rem;
+  font-size: .28rem;
+}
+:local .goIcon {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: .34rem;
+}
+:local .listInfo {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+}
+:local .listInfo p {
+  font-size: .24rem;
+}

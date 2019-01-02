@@ -1,0 +1,190 @@
+:local .wrap {
+  padding: .28rem 0 .32rem;
+  background: #ffffff;
+  -webkit-box-shadow:0px 2px 8px #DAEDFF;
+  -moz-box-shadow:0px 2px 8px #DAEDFF;
+  box-shadow:0px 2px 8px #DAEDFF;
+}
+:local .amountArea {
+  position: relative;
+  margin: 0 auto .26rem;
+  padding-top: 1.19rem;
+  width: 3.24rem;
+  height: 3.24rem;
+  background-image: url(../../../../../image/background_wallet.png);
+  border-radius: 50%;
+}
+:local .amountDetail {
+  line-height: .62rem;
+  font-size: .4rem;
+  color: #fdba32;
+  text-align: center;
+}
+:local .amountDescription {
+  line-height: .46rem;
+  font-size: .24rem;
+  color: #bbbbbb;
+  text-align: center;
+}
+:local .amountIcon {
+  position: absolute;
+  top: .48rem;
+  right: .41rem;
+}
+:local .myAmountDetail {
+  line-height: .4rem;
+  font-size: .28rem;
+  color: #fdba32;
+  text-align: center;
+}
+:local .myAmountDescription {
+  line-height: .36rem;
+  font-size: .24rem;
+  color: #bbbbbb;
+  text-align: center;
+}
+
+/*收支明细样式*/
+:local .walletInfoArea {
+  padding: .32rem .3rem .32rem .38rem;
+}
+:local .walletInfoDetail {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+:local .walletInfoDetailSecond {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: .3rem;
+}
+:local .walletInfoTitle h3 {
+  font-size: .3rem;
+  font-weight: bold;
+}
+:local .walletInfoDate p {
+  font-size: .28rem;
+  color: #bbbbbb;
+}
+:local .walletInfoSubTitle p {
+  max-width: 4.78rem;
+  font-size: .28rem;
+  color: #bbbbbb;
+}
+:local .walletInfoMoney p {
+  font-size: .32rem;
+  color: #fdba32;
+}
+
+/* 绑定账号,修改提现密码,找回提现密码 */
+:local .textArea {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 auto;
+  padding: 0 .2rem;
+  width: 6.72rem;
+  height: auto;
+  border: .02rem solid #dbedff;
+  border-radius: 8px;
+}
+:local .textAreaWithButton {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: .18rem auto 0;
+  width: 6.72rem;
+}
+:local .textArea p {
+  min-width: 1.8rem;
+  font-size: .24rem;
+  color: #bbbbbb;
+}
+:local .textArea input[type="text"],
+:local .textArea input[type="tel"],
+:local .textArea input[type="password"]{
+  flex: 1;
+  line-height: .88rem;
+  font-size: .24rem;
+  background: none;
+  border: none;
+  outline: none;
+}
+:local .validateButton {
+  width: 2.3rem;
+  height: .88rem;
+  font-size: .28rem;
+  color: #fff;
+  text-align: center;
+  background-color: #febb33;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+:local .bindArea {
+  padding: .3rem .18rem;
+}
+:local .bindArea img {
+  float: left;
+  width: 1.1rem;
+  height: 1.1rem;
+}
+:local .bindContent {
+  margin-left: 1.28rem;
+}
+:local .bindName {
+  line-height: .58rem;
+  font-size: .3rem;
+}
+:local .bindAccount {
+  line-height: .56rem;
+  font-size: .28rem;
+  color: #bbbbbb;
+}
+:local .setPasswordArea {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+  margin: .72rem auto;
+  padding: 0 .2rem;
+  width: 6.72rem;
+}
+:local .setPasswordArea p {
+  font-size: .24rem;
+  color: #bbbbbb;
+}
+:local .setPasswordLabel {
+  flex: 1;
+  display: block;
+}
+:local .setPasswordLabel ul {
+  flex: 1;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+:local .setPasswordLabel ul li {
+  width: .68rem;
+  height: .68rem;
+  font-size: .24rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: .68rem;
+  border: 1px solid #dbedff;
+  overflow: hidden;
+}
+:local .setPasswordInput {
+  margin: 0;
+  padding: 0;
+  width: 1px;
+  opacity: 0;
+  height: 1px;
+  border: none;
+}

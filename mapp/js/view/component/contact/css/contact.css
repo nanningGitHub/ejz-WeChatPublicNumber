@@ -1,0 +1,11 @@
+:local .contact {
+  position: relative;
+}
+:local .contact a {
+  position: absolute;
+  top: 1.93rem;
+  left: .77rem;
+  display: block;
+  width: 3.77rem;
+  height: .46rem;
+}

@@ -1,0 +1,47 @@
+:local .photoIntroduce p {
+  padding-left: .33rem;
+  line-height: .82rem;
+  font-size: .28rem;
+}
+:local .photoArea {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 0 .34rem .24rem .34rem;
+}
+:local .photoArea a {
+  position: relative;
+  display: block;
+  border-radius: 8px;
+}
+:local .photoArea a img {
+  width: 3.06rem;
+  height: 2.16rem;
+}
+:local .inputFile {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 2;
+}
+:local .authStatusShadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  z-index: 1;
+}
+:local .authStatusShadow p {
+  width: 100%;
+  font-size: .24rem;
+  color: #ffffff;
+  text-align: center;
+}

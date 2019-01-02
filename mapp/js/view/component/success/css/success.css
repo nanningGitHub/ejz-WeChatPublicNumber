@@ -1,0 +1,24 @@
+:local .iconArea {
+  margin: .9rem auto .43rem;
+  width: 1.8rem;
+}
+:local .successText p {
+  font-size: .28rem;
+  text-align: center;
+}
+:local .successText p span {
+  padding: 0 .1rem;
+  font-size: .28rem;
+  color: #fdba32;
+  font-weight: bold;
+}
+:local .jobTitle {
+  padding-left: .3rem;
+  height: .88rem;
+  border-bottom: 1px solid #f2f8ff;
+}
+:local .jobTitle h2 {
+  line-height: .88rem;
+  font-size: .3rem;
+  font-weight: normal;
+}

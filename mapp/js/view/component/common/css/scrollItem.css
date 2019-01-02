@@ -1,0 +1,42 @@
+:local .item {
+  display: block;
+  padding: .1rem .18rem;
+  width: 4.1rem;
+  height: 1.4rem;
+  background: #fff;
+  border-radius: 8px;
+  -webkit-box-shadow:0px 2px 8px #DAEDFF;
+  -moz-box-shadow:0px 2px 8px #DAEDFF;
+  box-shadow:0px 2px 8px #DAEDFF;
+}
+:local .image {
+  float: left;
+  width: 1.5rem;
+  height: 1.2rem;
+}
+:local .textArea {
+  float: left;
+  margin-left: .14rem;
+}
+:local .title {
+  line-height: .42rem;
+  font-size: .3rem;
+  font-weight: normal;
+}
+:local .description {
+  line-height: .36rem;
+  font-size: .24rem;
+  color: #bbbbbb;
+}
+:local .salary {
+  float: left;
+  line-height: .42rem;
+  font-size: .3rem;
+  color: #fdba32;
+}
+:local .salaryInfo {
+  float: left;
+  line-height: .42rem;
+  font-size: .24rem;
+  color: #bbbbbb;
+}
